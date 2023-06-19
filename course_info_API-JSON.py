@@ -22,7 +22,12 @@ def retrieve_course(course_name:str):
     }
     print(course_info)
 
-# You can retrieve course infromation from the following courses:
+#You can retrieve course infromation from the following courses:
 # docker18, docker2019, docker2020, beta-dwk-20, ofs2019, CCFUN, fullstack2019, rails2018
-retrieve_course("docker2019")
+
+course_name = input("Please input a course name:")
+retrieve_course(course_name)
+
+
+
     
